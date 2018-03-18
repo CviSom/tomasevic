@@ -4,14 +4,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from '../components/auth/login/login.component';
 
 const appRoutes: Routes = [
-  { path: '', 
-  redirectTo: '/home',
+  { path: '',
+  redirectTo: '#',
   pathMatch: 'full',
 },
-{ path: 'login', 
-  component:LoginComponent
+{ path: 'login',
+  component: LoginComponent
 },
-]
+];
 @NgModule({
   imports: [
     CommonModule,
