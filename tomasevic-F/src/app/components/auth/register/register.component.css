@@ -1,0 +1,23 @@
+.center{
+  position:absolute;
+  top:30%;
+  left:50%;
+  padding:10px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  } 
+.center .panel{
+  background: rgba(255, 255, 255, 0.925);
+  box-shadow: rgba(0, 0, 0, 0.116) 1px 5px 1px 1px;
+}
+
+.center{
+  margin-top: 10px;
+}
+.btn{
+  background-color: rgb(76, 175, 80)
+}
+.btn:hover{
+  background: #a2e8a5;
+}
