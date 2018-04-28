@@ -6,18 +6,30 @@
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+  margin-top: 250px;
   } 
 .center .panel{
+    z-index: 1;
+  background: #FFFFFF;
+  max-width: 560px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
   background: rgba(255, 255, 255, 0.925);
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-.center{
-  margin-top: 10px;
 }
 .btn{
   background-color: rgb(76, 175, 80)
 }
 .btn:hover{
   background: #a2e8a5;
+}
+.form-control {
+  outline: 0;
+  background: #f1ef6a;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
 }
